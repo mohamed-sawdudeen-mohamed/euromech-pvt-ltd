@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.baner{
+    background-color: rgb(247, 243, 243);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+
+.top-header{
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+.top-header .addres > i{
+    margin-right: 15px;
+    padding-top: 4px;
+}
+
+.top-header .company-name{
+    text-align: center;
+}
+
+.top-header .emergency > span{
+    font-size: .9rem;
+}
+
+.top-header .social-media-icons{
+    font-size: 1.8rem;
+    display: flex;
+    padding-right: 2px;
+    
+
+}
+
+.top-header .social-media-icons >a{
+    padding-right: 20px;
+    text-align: end;
+}
+
+.navigations{
+    padding: 11px 0 11px;
+    background-color: #515151;
+}
+
+.main-nav .nav{
+    display: flex;
+    
+    
+}
+.nav-item{
+    list-style: none;
+    
+}
+
+.nav-links{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-links:hover{
+    color: #df6160;
+    transition:  0.5s linear;
+}
+
+
+.slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5.5s;
+    animation-name: fade;
+    animation-duration: 5.5s line;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.stiker{
+    background-color: rgba(51,51,51,.9);
+    padding: 15px 25px 20px 25px;
+    width: 100%;
+    left: 0; 
+    align-items: center;
+    
+}
+
+.stiker-text > h4{
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(247, 243, 243);
+}
+
+.stiker-text > h2{
+    margin-top: 0;
+    text-align: left;
+    color: #4a87cb;
+    font-weight: bold;
+}
+
+.stiker-logo{
+    text-align: center;
+}
+
+.stiker-end{
+    text-align: right;
+}
+
+.stiker-end >h4{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(247, 243, 243);
+}
+
+.stiker-end > h2{
+    margin-top: 0;
+    color: #df6160;
+    font-weight: bold;
+}
+
+.about-us{
+    padding: 60px 20px 30px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-us-img{
+    border-radius: 10px;
+}
+
+.about-us-text > h5{
+    color: #888;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: -1px;
+}
+
+.about-us-text >h2{
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 24px;
+    color: #4a87cb;
+    font-weight: bold;
+}
+
+.about-us-text > p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 22px;
+    color: #555;
+    padding-right: 15px;
+}
+
+.read-more{
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    height: 49px;
+    line-height: 49px;
+    padding: 0 35px;
+    border-radius: 30px;
+    background-color: #4a87cb;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.read-more:hover{
+    background-color: #105694;
+    color: white;
+}
+
+.services{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #949494;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(234,241,249,255);
+}
+
+.services >h6{
+    font-weight: 700;
+    color: #2d72bb;
+    line-height: 26px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+}
+
+.border-line{
+    margin: 0 auto;
+    width: 99px;
+    background: #fccc00;
+    height: 3px;
+    position: relative;
+}
+
+.border-line::before{
+    position: absolute;
+    height: 10px;
+    width: 3px;
+    background: #fccc00;
+    content: '';
+    top: -7px;
+    left: 0;
+}
+
+.border-line::after{
+    position: absolute;
+    height: 10px;
+    width: 3px;
+    background: #fccc00;
+    content: '';
+    top: -7px;
+    right: 0;
+}
+
+.services >h5{
+    font-weight: 700;
+    color: #1e2452;
+    line-height: 44px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.services >p{
+    padding-bottom: 30px;
+}
+
+.services-box{
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    transition: .2s;
+    border: 10px solid #fff;
+    text-align: center;
+    margin-left: 25px;
+    
+}
+
+.services-img{
+    position: relative;
+}
+
+.services-box-text >h3{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2em;
+    color: #38373c;
+}
+
+.services-box-text >p{
+    /* color: #87868a;
+    margin-bottom: 40px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis; */
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+
+
+}
+
+.services-box-btn{
+    width: 100%;
+    display: block;
+    color: #38373c;
+    padding: 17px 40px;
+    background-color: rgba(241,241,241,255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services-card-col:hover a{
+    background-color: #FFD763;
+    color: black;
+}
+
+.services-card-col:hover .services-box{
+    background-color: rgba(51,51,51,.9);
+    
+}
+
+.services-card-col:hover h3{
+    color: #FFD763;
+}
+
+.services-card-col:hover p{
+    color: white;
+}
+
+.services-card-col:hover img{
+    opacity: 0.5;
+    background-color: (51,51,51,.9);
+    
+}
+
+.appointment-sticker{
+    background-color: #007cba;
+    padding: 15px 25px 20px 25px;
+    width: 100%;
+    left: 0; 
+    align-items: center;
+}
+
+
+.appointment-stiker-text > h6{
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+    /* color: rgb(247, 243, 243); */
+    color: rgb(243, 235, 235);
+    font-size: 16px;
+}
+
+.appointment-stiker-text > h2{
+    margin-top: 0;
+    text-align: left;
+    /* color: #007cba; */
+    /* color: #ec4343; */
+    color: white;
+    font-weight: bold;
+}
+
+
+.appointment-stiker-link{
+    margin-top: 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.appointment-stiker-link >a{
+    text-decoration: none;
+    background-color: white ;
+    color: #007cba;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px solid ;
+    text-align: center;
+    
+    
+    
+}
+
+.appointment-stiker-btn >i{
+    padding-left: 10px;
+}
+
+.appointment-stiker-btn{
+    border-radius: 5px;
+}
+
+.appointment-stiker-link >a:hover{
+    background-color:#022335 ;
+    transition: all 0.05s ease-in-out, 1s;
+    
+}
+
+.sales-item >h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.sales-item-card{
+    margin-left: 50px;
+    
+}
+
+
+.sales-item {
+    background-image: url('http://localhost/euromech-pvt-ltd/assets/imag/img-7.jpg');
+    background-repeat: no-repeat;
+    background-size: calc(100vw + 80px);
+    background-position-y: -50px;
+    background-position-x: -50px;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.sales-item-card-col{
+    background-color: rgb(252, 246, 246);
+    padding: 15px;
+    border: black 1px;
+    border-radius: 10px;
+    margin-right: 40px;
+    
+}
+
+
+.sales-item-img{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.sales-item-box-text >h3{
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(7, 7, 119);
+
+}
+
+.sales-item-box-text >h4{
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(5, 68, 5);
+    
+}
+
+.more-item{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.more-item > a{
+    text-decoration: none;
+    background-color: #022335 ;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px  ;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.more-item >a:hover{
+    background-color:#024468 ;
+    transition: all 0.05s ease-in-out, 1s;
+}
+
+.choose-us{
+    background-image: url('http://localhost/euromech-pvt-ltd/assets/imag/img-14.jpg');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.why-us{
+    
+    padding: 15px;
+    font-weight: 400;
+    box-shadow: 0 0 3px 1px transparent;
+    padding-bottom: 70px;
+}
+
+.why-us >h4{
+    color: #888;
+    margin: 0 0 22px;
+    margin-top: 40px;
+}
+
+.why-us >h3{
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+}
+
+.why-us .span{
+    color: #4a87cb;
+}
+
+.choose-us-li{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.choose-us-li >i{
+    padding-right: 30px;
+    font-size: 50px;
+}
+
+.choose-us-li-contents >h4{
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.choose-us-li-contents >p{
+    font-size: 17px;
+    line-height: 22px;
+    color: #555;
+}
+
+footer{
+    background-color: #131212;
+    padding-top: 60px;
+}
+
+.social-links{
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+    text-align: center;
+}
+
+.social-links li{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-links a{
+    font-size: 1.125em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    line-height: 1em;
+    border-bottom: 1px solid transparent;
+    transition: all 0.05s ease-in-out, 1s;
+}
+
+.social-links a:hover{
+    /* border-bottom: #fff; */
+    text-decoration: underline;
+    transition: all 0.05s ease-in-out, 1s;
+}
+
+.page-wrap{
+    margin-top: 30px;
+    color: white;
+}
+
+
+.page-wrap >h6{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-addres >i{
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-addres >div{
+    padding-bottom: 50px;
+    font-size: 17px;
+}
+
+.footer-email{
+    justify-content: center;
+}
+
+.footer-email >i{
+    padding-right: 20px;
+    text-align: center;
+}
+
+.footer-emergency{
+    justify-items: right;
+    
+}
+
+.footer-emergency >i{
+    padding-right: 20px;
+    
+}
